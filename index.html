@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .logo img{
+      width:100px;
+    }
+
+    .search-bar {
+      display: flex;
+      flex-grow: 1;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .search-bar select,
+    .search-bar input {
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .search-bar select {
+      width: 90px;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    .search-bar input {
+      flex-grow: 1;
+  
+    }
+
+    .search-bar button {
+      padding: 10px;
+      background-color: #febd69;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .nav {
+      display: flex;
+      gap: 15px;
+      font-size: 14px;
+    }
+
+    .category-navbar {
+      display: flex;
+      justify-content: space-around;
+      background-color: #232f3e;
+      padding: 10px 0;
+  
+    }
+
+    .category-navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .category-navbar a:hover {
+      background-color: #3a4e69;
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-color: #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 100%;
+      margin: 0%;
+      object-fit: cover;
+    }
+
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 40px;
+    }
+
+    .product-card {
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 30%;
+      margin:10px;
+    }
+
+    .product-card img {
+      width: 90%;
+      height: 300px;
+      object-fit: cover;
+       margin: 10px;
+    }
+
+    .product-card h4 {
+      margin: 10px 10px;
+    }
+    .product-card a{
+      text-decoration: none;
+      margin: 10px;
+      text-align: left;
+    }
+
+.amazon-footer {
+  background-color: #232f3e;
+  color: white;
+  font-size: 18px;
+}
+.amazon-footer li{
+  background-color: #232f3e;
+  color: rgb(225, 222, 222);
+  font-size: 14px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+  color: rgb(225, 222, 222);
+}
+
+.footer-bottom {
+  background-color: #131921;
+  text-align: center;
+  border-top: 1px solid #3a4553;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="download (1).jpg">
+    </div>
+    <div class="search-bar">
+      <select>
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion</option>
+        <option value="home">Home</option>
+        <option value="books">Books</option>
+      </select>
+      <input type="text" placeholder="Search Amazon.in">
+      <button><i class="fa fa-search"></i></button>
+    </div>
+    <div class="nav">
+      <div>Sign In</div>
+      <div>Orders</div>
+      <div>Cart</div>
+    </div>
+  </div>
+
+  <div class="category-navbar">
+    <a href="#">Today's Deals</a>
+    <a href="#">MX Player</a>
+    <a href="#">Sell</a>
+    <a href="#">Bestsellers</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Mobiles</a>
+    <a href="#">Fashion</a>
+    <a href="#">Customer Service</a>
+    <a href="#">New Releases</a>
+    <a href="#">Electronics</a>
+    <a href="#">Amazon Pay</a>
+  </div>
+
+  <div class="banner">
+    <img src="Deals-Revealed-PC-HERO-2x._CB796520283_.jpg" >
+  </div>
+
+  <div class="product-section">
+    <div class="product-card">
+        <h4>Continue shopping deal</h4>
+            <img src="PC_CC_379x304._SY304_CB794839184_.jpg" >
+      <a href="#">See all</a>
+    </div>
+    <div class="product-card">
+      <h4>Pick up where you left off</h4>
+      <img src="186x116---wm._SY116_CB667322346_.jpg">
+      <a href="#">See all</a>
+    </div>
+    <div class="product-card">
+      <h4>Buy two get 10% off</h4>
+      <img src="PC_CC_379x304-1._SY304_CB794902071_.jpg" >
+      <a href="#">See all</a>
+    </div>
+    <div class="product-card">
+      <h4>Bestselling Headphones</h4>
+      <img src="379x304._SY304_CB796583001_.jpg">
+      <a href="#">See all</a>
+    </div>
+    <div class="product-card">
+      <h4>Iphone offers</h4>
+      <img src="a6be21f6-614f-42ec-a893-42b29d91a06d.jpg">
+      <a href="#">See all</a>
+    </div>
+    <div class="product-card">
+      <h4>Great Summer Sale</h4>
+      <img src= "41uv2+9eelL._SR480,440_.jpg">
+      <a href="#">See all</a>
+    </div>
+  </div>
+  <footer class="amazon-footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>Get to Know Us</h4>
+        <ul>
+          <li>About Us</li><br>
+          <li>Careers</li><br>
+          <li>Press Releases</li><br>
+          <li>Amazon Science</li><br>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Connect with Us</h4>
+        <ul>
+          <li>Facebook</li><br>
+          <li>Twitter</li><br>
+          <li>Instagram</li><br>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Make Money with Us</h4>
+        <ul>
+          <li>Sell on Amazon</li><br>
+          <li>Sell under Amazon Accelerator</li><br>
+          <li>Amazon Global Selling</li><br>
+          <li>Advertise Your Products</li><br>
+          <li>Supply to Amazon</li><br>
+          <li> Become an Affiliate</li><br>
+          <li>Fulfilment by Amazon</li><br>
+          <li>Advertise Your Products</li><br>
+          <li>Amazon Pay on Merchants</li><br>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Let Us Help You</h4>
+        <ul>
+          <li>Your Account</li><br>
+          <li>Returns Centre</li><br>
+          <li>Recalls and Product Safely Alerts</li><br>
+          <li>100% Purchase Protection</li><br>
+          <li>Amazon App Download</li><br>
+          <li>Help</li><br>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 1996-2025, Amazon.com,Inc or its affiliates 
+    </div>
+  </footer>
+  
+
+</body>
+</html>
